@@ -14,7 +14,7 @@ type TotalCountProps = Pick<AppStore, 'total' | 'page'> & { dispatch: Dispatch<A
 
 function TotalCountElement({total, page, dispatch}: TotalCountProps) {
 
-    const pageMax = Math.round(total / numberEntriesPerPage);
+    const pageMax = Math.ceil(total / numberEntriesPerPage);
 
     const refTimer = useRef<any>();
     const refInput = useRef<HTMLInputElement>(null);
