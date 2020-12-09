@@ -3,7 +3,7 @@ import {messageShow, setWaiting} from "./store";
 import {locale} from "./locale";
 
 const mainUrl = 'https://uxcandy.com/~shapoval/test-task-backend/v2/';
-const developer = 'Name'; // Ivan-2020-12-08
+const developer = 'Ivan-2020-12-08'; // Name
 
 
 interface GetDataParams {
