@@ -16,8 +16,8 @@ import {locale} from "../utils/locale";
 import {useForm} from "react-hook-form";
 import {testField} from "../utils/util";
 
-
-const columnOrder = ['id', 'username', 'email', 'status', 'text', 'image_path'] as ColumnName[];
+//, 'image_path'
+const columnOrder = ['id', 'username', 'email', 'status', 'text'] as ColumnName[];
 
 const columnName: { [s in ColumnName]: { label: string, sortable: boolean, width: number, center: boolean, editable?: boolean } } = {
     id: {label: locale.colId, sortable: true, width: 4, center: true},
